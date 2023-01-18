@@ -1,6 +1,7 @@
 .Form {
     border: none;
     border-bottom: 2px #63474D solid;
+    background-color: #63474D;
   }
   
   .Button {
@@ -15,6 +16,5 @@
   
   .Button:hover {
     cursor: pointer;
-    background-color: #AA8F66;
-    color: #63474D;
+    filter: brightness(0.5);
   }
