@@ -43,8 +43,6 @@
 ### Frameworks, tools and libraries
 #### Back-End
 - [Django Rest Framework](https://www.django-rest-framework.org/)
-- [Psycopg2](https://pypi.org/project/psycopg2/)
-   - PostgreSQL database adapter for python
 - [JSON Web Tokens](https://jwt.io/)
    - Http-safety, web-tokens for kepping user logged in, authentication etc.
 #### Front-End
