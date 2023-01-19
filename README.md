@@ -189,6 +189,9 @@ The structure was taken from Code Institutes walkthrough project. The final desi
    - These fields where not added to profiles/serializers.py in the Back-End. 
    - Added items and bug resolved.
 #
+## Bugs left unsolved
+- You can create an account on mobile but for some reason, when trying to log in on mobile, you just get redirected to the Sign in page again, needing to type in username and password again. Could not find the time to fix this. Everything works well on desktop.
+#
 ## Set up repository
 - Start with a new empty repo
    - Since there are items from the full-template that can interfere with React.
