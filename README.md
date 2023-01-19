@@ -235,6 +235,7 @@ The structure was taken from Code Institutes walkthrough project. The final desi
 
 ### Content credits
 - The biggest credit has to go Code Institute, I followed the Walkthroughs given, and developed a little on top of it.
+- To Mikaela (fellow student), for readme.md template
 
 ### Media
 - Every media image that was used, came from free resource [Unsplash](https://unsplash.com/)
