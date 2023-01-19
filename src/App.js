@@ -20,6 +20,7 @@ function App() {
   const currentUser = useCurrentUser();
   const profile_id = currentUser?.profile_id || "";
 
+
   return (
     <div className={styles.App}>
       <NavBar />
@@ -59,21 +60,20 @@ function App() {
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
           <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
           <Route
-            exact
-            path="/profiles/:id/edit/username"
-            render={() => <UsernameForm />}
+          exact
+          path="/profiles/:id/edit/username"
+          render={() => <UsernameForm />}
           />
           <Route
-            exact
-            path="/profiles/:id/edit/password"
-            render={() => <UserPasswordForm />}
+          exact
+          path="/profiles/:id/edit/password"
+          render={() => <UserPasswordForm />}
           />
           <Route
-            exact
-            path="/profiles/:id/edit"
-            render={() => <ProfileEditForm />}
+          exact
+          path="/profiles/:id/edit"
+          render={() => <ProfileEditForm />}
           />
-
           <Route render={() => <NotFound />} />
         </Switch>
       </Container>
