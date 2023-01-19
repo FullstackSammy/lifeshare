@@ -18,8 +18,10 @@ import btnStyles from "../../styles/Button.module.css";
 
 import { useHistory } from "react-router";
 import { axiosReq } from "../../api/axiosDefaults";
+import { useRedirect } from "../../hooks/useRedirect";
 
 function PostCreateForm() {
+  useRedirect("loggedOut");
   const [errors, setErrors] = useState({});
 
   const [postData, setPostData] = useState({
@@ -102,12 +104,12 @@ function PostCreateForm() {
       ))}
 
       <Button
-        className={`${btnStyles.Button} ${btnStyles.Bright}`}
+        className={`${btnStyles.Button} ${btnStyles.Blue}`}
         onClick={() => history.goBack()}
       >
         cancel
       </Button>
-      <Button className={`${btnStyles.Button} ${btnStyles.Bright}`} type="submit">
+      <Button className={`${btnStyles.Button} ${btnStyles.Blue}`} type="submit">
         create
       </Button>
     </div>
