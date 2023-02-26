@@ -5,6 +5,8 @@
 [Live site for frontend](https://lifeshare.herokuapp.com/)
 
 [Live site for backend](https://drf-api-sam.herokuapp.com/)
+
+[Repository for backend](https://github.com/FullstackSammy/drf-api)
 #
 ## Project Goals
 - Design an interactive Front-End web application using HTML, CSS and advanced JavaScript, based on component composition and separation of concerns.
@@ -24,6 +26,7 @@
 ## Planning
 #
 - The current direction for this project is to follow the walkthrough given by Code Institute and some own unique designs.
+- User stories, see project Kanban board.
 #
 ## Technologies and Libraries
 ### Languages used
@@ -178,6 +181,12 @@ The structure was taken from Code Institutes walkthrough project. The final desi
      - No broken links found
      - testing responsiveness with [AmIResponsive](https://ui.dev/amiresponsive?url=https://lifeshare.herokuapp.com/)
 #
+## Future feautures 
+- Future feautures are to implement the private_message app in the [Back-End](https://github.com/FullstackSammy/drf-api) to make it possible for the users to chat with each other.
+   - This will include:
+      - Create messages and sending them to the contacts
+      - Edit a message that has been sent
+      - Deleteing a message tha has been sent
 ## Bugs in development
 - Added README-files to fast and hindered installment of dependencies
    - Delete all files that could interfere
@@ -190,7 +199,7 @@ The structure was taken from Code Institutes walkthrough project. The final desi
    - Added items and bug resolved.
 #
 ## Bugs left unsolved
-- You can create an account on mobile but for some reason, when trying to log in on mobile, you just get redirected to the Sign in page again, needing to type in username and password again. Could not find the time to fix this. Everything works well on desktop.
+- You can create an account on mobile but for some reason, when trying to log in on mobile, you just get redirected to the Sign in page again, needing to type in username and password again. When checking the Heroku logs, there seems to be a authentication problem. I have consulted both my mentor and people on slack and google. Could not find a solution in time to fix this. Everything works well on desktop.
 #
 ## Set up repository
 - Start with a new empty repo
