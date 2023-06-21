@@ -2,9 +2,9 @@
 
 ![Am I responsive](/readme-imgs/responsive.jpg)
 
-[Live site for frontend](https://lifeshare.herokuapp.com/)
+[Live site for frontend](https://lifeshare.onrender.com/)
 
-[Live site for backend](https://drf-api-sam.herokuapp.com/)
+[Live site for backend](https://drf-api-sam1.onrender.com/)
 
 [Repository for backend](https://github.com/FullstackSammy/drf-api)
 #
